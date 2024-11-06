@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: plum;
+}
+
+.header-middle {
+    background-color: #3A3458;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: plum;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.search-bar button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.user-icons {
+    font-size: 25px;
+}
+
+.highlight {
+    background-image: url(photo11.jpg);
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.highlight h2{
+    font-size: 60px;
+    color: plum;
+    padding: 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: #3A3458;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: plum;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: plum;
+    color: #3A3458;
+}
+
+.abaya-section {
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+
+.abaya-section p {
+    font-size: 20px;
+    margin-bottom: 80px;
+    color: #3A3458;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.image-gallery h2{
+    color: #3A3458;
+}
+
+.image-item1 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 480px;
+    float: left;
+}
+
+.image-item2 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 480px;
+    float: none;
+}
+.image-item3 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 480px;
+    float: right;
+}
+
